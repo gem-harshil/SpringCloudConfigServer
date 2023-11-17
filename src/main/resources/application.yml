@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/gem-harshil/microservice-config
+          clone-on-start: true
+          username: gem-harshil
+          password: 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
